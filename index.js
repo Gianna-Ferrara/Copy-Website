@@ -57,6 +57,10 @@ function hide2(){
     else{
         hid.style.display = "none"
     }
+    let other = document.getElementById("extracir")
+    if(other.style.display === "block"){
+        other.style.display = "none"
+    }
 }
 function hide3(){
     let hid =  document.getElementById("extracir")
@@ -66,6 +70,10 @@ function hide3(){
     }
     else{
         hid.style.display = "none"
+    }
+    let other = document.getElementById("course")
+    if(other.style.display === "block"){
+        other.style.display = "none"
     }
 }
 function color(){
